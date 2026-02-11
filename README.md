@@ -122,13 +122,13 @@ POST /api/short
 ## 📸 Screenshots
 
 ### 🏠 Homepage
-![Homepage](public/demo/BitLinks-home.png)
+![Homepage](public/Shorts/bitlinks-home.jpeg)
 
 ### ✂️ Create Short URL
-![Create URL](public/demo/Bitlinks-create.png)
+![Create URL](public/Shorts/bitlinks-create.jpeg)
 
 ### 🔗 Generated Link
-![Result](public/demo/bitlinks-result.png)
+![Result](public/Shorts/bitlinks-result.jpeg)
 
 ---
 
