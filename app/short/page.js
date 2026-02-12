@@ -49,9 +49,9 @@ const Short = () => {
 
     return (
         <main>
-            <section className="grid grid-cols-2 h-[92vh] border justify-center">
-                <div className="flex flex-col justify-center items-center relative h-[50vh] gap-4 bg-blue-50 mx-25 my-auto rounded-2xl">
-                    <h1 className="font-bold text-4xl text-blue-700 text-center py-4">
+            <section className="grid md:grid-cols-2 h-[75vh] md:h-[92vh] justify-center items-center">
+                <div className="flex flex-col justify-center items-center relative py-5 px-5 md:h-[50vh] gap-4 bg-blue-50 md:mx-25 my-auto rounded-2xl">
+                    <h1 className="font-bold text-2xl md:text-4xl text-blue-700 text-center py-4">
                         Generate Your Short URL's</h1>
                     <div className='flex  items-center flex-col gap-4'>
 
@@ -85,9 +85,9 @@ const Short = () => {
                             </>
                         )}
 
-                    </div>
+                    </div>                  
                 </div>
-                <div className="flex justify-center items-center relative h-full">
+                <div className="hidden md:inline-block justify-center items-center relative h-full">
                     <video
                         className="absolute inset-0 w-full h-full object-cover"
                         src="/Website.mp4"

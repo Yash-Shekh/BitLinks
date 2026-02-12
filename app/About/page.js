@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="bg-blue-50 py-16 px-6 h-[90vh] justify-center items-center">
-      <div className="max-w-4xl mx-auto my-20 text-center">
+      <div className="max-w-4xl mx-auto md:my-20 text-center">
         <h2 className="text-4xl font-bold text-blue-700 mb-6">
           About BitLinks
         </h2>
