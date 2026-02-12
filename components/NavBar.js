@@ -12,7 +12,7 @@ const NavBar = () => {
                 <Link href="/short" >
                     <button className='bg-white text-blue-700 px-2 py-1 rounded-lg font-bold'>
                         Try Now</button></Link>
-                <Link href="https://github.com/Yash-Shekh/Bit-Links" >
+                <Link href="https://github.com/Yash-Shekh/BitLinks" >
                     <button className='bg-white text-blue-700 px-2 py-1 rounded-lg font-bold'>
                         GitHub</button></Link>
             </ul>
