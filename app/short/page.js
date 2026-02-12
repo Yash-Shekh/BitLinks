@@ -56,14 +56,14 @@ const Short = () => {
                     <div className='flex  items-center flex-col gap-4'>
 
                         <input
-                            className='text-xl outline outline-blue-500 rounded-lg px-4 w-90'
+                            className='text-xl outline outline-blue-500 rounded-lg px-4 w-75 md:w-90'
                             onChange={e => { seturl(e.target.value) }}
                             value={url}
                             type="text"
                             placeholder='Enter your URL' />
 
                         <input
-                            className='text-xl outline outline-blue-500 rounded-lg px-4 w-90'
+                            className='text-xl outline outline-blue-500 rounded-lg px-4 w-75 md:w-90'
                             onChange={e => { setshorturl(e.target.value.toLowerCase()) }}
                             value={shorturl}
                             type="text"

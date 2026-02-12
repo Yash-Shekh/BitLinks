@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="bg-blue-50 py-16 px-6 h-[90vh] justify-center items-center">
+    <section className="bg-blue-50 py-16 px-6 h-screen justify-center items-center">
       <div className="max-w-4xl mx-auto md:my-20 text-center">
         <h2 className="text-4xl font-bold text-blue-700 mb-6">
           About BitLinks
@@ -30,7 +30,7 @@ export default function About() {
               reliability.
             </p>
           </div>
-          <div className="bg-white shadow-md rounded-lg p-6">
+          <div className="bg-white shadow-md rounded-lg p-6 mb-6">
             <h3 className="text-xl font-semibold text-blue-600 mb-3">
               📊 Simple & Scalable
             </h3>

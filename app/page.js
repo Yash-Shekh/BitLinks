@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       <section className="grid md:grid-cols-2 h-full">
-        <div className="flex flex-col justify-center items-center gap-4">
+        <div className="flex flex-col justify-center items-center gap-4 w-full ">
           <h1 className="font-bold text-3xl text-blue-700 text-center mt-10">
             BitLinks – Your Smart URL Shortener</h1>
 
